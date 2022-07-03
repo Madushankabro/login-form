@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background2.jpg);
+    width: 100%;
+    position: relative;
+}
+/*======================Container======================*/
+.login{
+    display: flex;
+    height: 550px;
+    width: 800px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px black;
+}
+
+/*======================Login Form======================*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.form h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 40px;
+}
+.form h2:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 183, 255);
+    /*border: 1px solid black;*/
+    transition: 0.5s;
+    font-size: 3rem;
+    margin: 40px;
+}
+.box{
+    padding: 18px;
+    width: 70%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: auto;
+    border-radius: 25px;
+    box-shadow: 15px 15px 20px black;
+}
+.p{
+    text-align: left;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: 1.5s;
+}
+.form a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: blue solid;
+    margin-top: 20px;
+}
+.form a:hover{
+    color: rgb(2, 2, 87);
+    transition: 0.5s;
+}
+.form p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+/*Right Side*/
+.side{
+    display: flex;
+    background-color: rgb(0, 183, 255);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.side img{
+    width: 400px;
+    height: 400px;
+}
+/*Social media login
+.social img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}*/
+
+/*======================Signup form======================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Signup{
+    display: flex;
+    height: 800px;
+    width: 800px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px black;
+}
+.container{
+    display: contents;
+    height: 810px;
+    width: 810px;
+    margin: auto;
+    margin-top: 70px;
+
+}
+#susubmit{
+    padding: 12px 30px;
+    width: 60%;
+    margin-top: 40px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+#susubmit:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: 1.5s;
+}
+
+p#para1{
+    text-align: center;
+}
+.siside{
+    display: flex;
+    background-color: rgba(146, 91, 19, 0.514);
+    border: 1px black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.siside img{
+    width: 400px;
+    height: 400px;
+}
+/*======================Header Section======================*/
+.background{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*======================Header Section======================*/
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+    font-weight: 600 solid black;
+    font-size: larger;
+    background-color: rgba(2, 183, 255, 0.26);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.header{
+    font-size: large;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+/*======================Footer Section======================*/
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: 600 solid white;
+    font-size: larger;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+/*======================Copyright Section======================*/
+.copyright{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: 600 solid white;
+    font-size: larger;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+}
